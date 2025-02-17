@@ -1,0 +1,9 @@
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/qt_lab0.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/edit_cache.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/rebuild_cache.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/list_install_components.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/install.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/install/local.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/install/strip.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/qt_lab0_autogen_timestamp_deps.dir
+C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/qt_lab0_autogen.dir

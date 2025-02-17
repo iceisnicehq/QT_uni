@@ -1,0 +1,16 @@
+# ninja log v6
+6	572	7615187136062729	qt_lab0_autogen/timestamp	d5b8f71883c9d710
+6	572	7615187136062729	qt_lab0_autogen/mocs_compilation.cpp	d5b8f71883c9d710
+6	572	7615187136062729	C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/qt_lab0_autogen/timestamp	d5b8f71883c9d710
+6	572	7615187136062729	C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/qt_lab0_autogen/mocs_compilation.cpp	d5b8f71883c9d710
+582	2060	7615187136788279	CMakeFiles/qt_lab0.dir/qt_lab0_autogen/mocs_compilation.cpp.obj	ffcb97c18443eaac
+590	2230	7615187136867412	CMakeFiles/qt_lab0.dir/mainwindow.cpp.obj	7530b8890381b5a2
+586	2302	7615187136829532	CMakeFiles/qt_lab0.dir/main.cpp.obj	5c1a1643e5d756cc
+2302	2504	7615187153987182	qt_lab0.exe	d832295acffe5c0f
+25	159	7615187612120428	qt_lab0_autogen/timestamp	d5b8f71883c9d710
+25	159	7615187612120428	qt_lab0_autogen/mocs_compilation.cpp	d5b8f71883c9d710
+25	159	7615187612120428	C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/qt_lab0_autogen/timestamp	d5b8f71883c9d710
+25	159	7615187612120428	C:/zenbook/Exchange/QT/qt_lab0/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/qt_lab0_autogen/mocs_compilation.cpp	d5b8f71883c9d710
+163	1559	7615187613496288	CMakeFiles/qt_lab0.dir/mainwindow.cpp.obj	7530b8890381b5a2
+159	1702	7615187613452489	CMakeFiles/qt_lab0.dir/main.cpp.obj	5c1a1643e5d756cc
+1702	1831	7615187628883632	qt_lab0.exe	d832295acffe5c0f
