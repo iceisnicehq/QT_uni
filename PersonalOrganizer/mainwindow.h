@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QSettings> // dop
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,12 +18,12 @@ public:
 
 private slots:
     void on_addTaskButton_clicked();
-
     void on_deleteTaskButton_clicked();
-
     void on_detailsTaskButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+    void saveTasks();    // dop2
+    void loadTasks();    // dop2
 };
 #endif // MAINWINDOW_H
