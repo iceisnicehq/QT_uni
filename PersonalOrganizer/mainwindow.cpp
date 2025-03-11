@@ -7,20 +7,21 @@
 #include <QDateEdit>
 #include <QPushButton>
 #include <QMessageBox>
-
+#include <QSettings> // dop
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    loadTasks(); // dop
 }
 
 MainWindow::~MainWindow()
 {
+    saveTasks(); // dop
     delete ui;
 }
-
 
 void MainWindow::on_addTaskButton_clicked()
 {
@@ -44,19 +45,26 @@ void MainWindow::on_addTaskButton_clicked()
     layout.addWidget(&addButton);
 
     connect(&addButton, &QPushButton::clicked, [&]() {
-       QString title = titleEdit.text().trimmed();
-       QString description = descriptionEdit.toPlainText().trimmed();
-       QDate date = dateEdit.date();
-       QListWidgetItem *newItem = new QListWidgetItem(title);
-       newItem->setData(Qt::UserRole, description);
-       newItem->setData(Qt::UserRole + 1, date);
-       ui->tasksListWidget->addItem(newItem);
-       dialog.accept();
+        QString title = titleEdit.text().trimmed();
+        
+        // Проверка на пустое название
+        if (title.isEmpty()) {
+            QMessageBox::warning(&dialog, "Ошибка", "Название задачи не может быть пустым!");
+            return;
+        }
+
+        QString description = descriptionEdit.toPlainText().trimmed();
+        QDate date = dateEdit.date();
+        
+        QListWidgetItem *newItem = new QListWidgetItem(title);
+        newItem->setData(Qt::UserRole, description);
+        newItem->setData(Qt::UserRole + 1, date);
+        ui->tasksListWidget->addItem(newItem);
+        dialog.accept();
     });
 
     dialog.exec();
 }
-
 
 void MainWindow::on_deleteTaskButton_clicked()
 {
@@ -78,7 +86,6 @@ void MainWindow::on_deleteTaskButton_clicked()
     }
 }
 
-
 void MainWindow::on_detailsTaskButton_clicked()
 {
     QListWidgetItem *item = ui->tasksListWidget->currentItem();
@@ -95,4 +102,37 @@ void MainWindow::on_detailsTaskButton_clicked()
        QMessageBox::warning(this, "Просмотр задачи", "Выберите задачу для просмотра.");
     }
 }
+// dops
+// 2. Сохранение задач ================================================
+void MainWindow::saveTasks()
+{
+    QSettings settings("MyCompany", "TaskManager");
+    settings.beginWriteArray("tasks");
+    
+    for (int i = 0; i < ui->tasksListWidget->count(); ++i) {
+        settings.setArrayIndex(i);
+        QListWidgetItem *item = ui->tasksListWidget->item(i);
+        settings.setValue("title", item->text());
+        settings.setValue("description", item->data(Qt::UserRole));
+        settings.setValue("date", item->data(Qt::UserRole + 1));
+    }
+    
+    settings.endArray();
+}
 
+// 3. Загрузка задач ==================================================
+void MainWindow::loadTasks()
+{
+    QSettings settings("MyCompany", "TaskManager");
+    int size = settings.beginReadArray("tasks");
+    
+    for (int i = 0; i < size; ++i) {
+        settings.setArrayIndex(i);
+        QListWidgetItem *item = new QListWidgetItem(settings.value("title").toString());
+        item->setData(Qt::UserRole, settings.value("description"));
+        item->setData(Qt::UserRole + 1, settings.value("date"));
+        ui->tasksListWidget->addItem(item);
+    }
+    
+    settings.endArray();
+}
