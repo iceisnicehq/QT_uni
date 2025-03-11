@@ -251,6 +251,7 @@
  mdp:/usr/include/linux-default/include/linux/limits.h
  mdp:/usr/include/locale.h
  mdp:/usr/include/pthread.h
+ mdp:/usr/include/qt6/QtCore/QSettings
  mdp:/usr/include/qt6/QtCore/q20functional.h
  mdp:/usr/include/qt6/QtCore/q20iterator.h
  mdp:/usr/include/qt6/QtCore/q20memory.h
@@ -325,6 +326,7 @@
  mdp:/usr/include/qt6/QtCore/qscopedpointer.h
  mdp:/usr/include/qt6/QtCore/qscopeguard.h
  mdp:/usr/include/qt6/QtCore/qset.h
+ mdp:/usr/include/qt6/QtCore/qsettings.h
  mdp:/usr/include/qt6/QtCore/qshareddata.h
  mdp:/usr/include/qt6/QtCore/qshareddata_impl.h
  mdp:/usr/include/qt6/QtCore/qsharedpointer.h

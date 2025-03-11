@@ -46,7 +46,7 @@ void MainWindow::on_addTaskButton_clicked()
 
     connect(&addButton, &QPushButton::clicked, [&]() {
         QString title = titleEdit.text().trimmed();
-        
+
         // Проверка на пустое название
         if (title.isEmpty()) {
             QMessageBox::warning(&dialog, "Ошибка", "Название задачи не может быть пустым!");
@@ -55,7 +55,7 @@ void MainWindow::on_addTaskButton_clicked()
 
         QString description = descriptionEdit.toPlainText().trimmed();
         QDate date = dateEdit.date();
-        
+
         QListWidgetItem *newItem = new QListWidgetItem(title);
         newItem->setData(Qt::UserRole, description);
         newItem->setData(Qt::UserRole + 1, date);
@@ -103,12 +103,12 @@ void MainWindow::on_detailsTaskButton_clicked()
     }
 }
 // dops
-// 2. Сохранение задач ================================================
+// Сохранение задач ================================================
 void MainWindow::saveTasks()
 {
     QSettings settings("MyCompany", "TaskManager");
     settings.beginWriteArray("tasks");
-    
+
     for (int i = 0; i < ui->tasksListWidget->count(); ++i) {
         settings.setArrayIndex(i);
         QListWidgetItem *item = ui->tasksListWidget->item(i);
@@ -116,16 +116,16 @@ void MainWindow::saveTasks()
         settings.setValue("description", item->data(Qt::UserRole));
         settings.setValue("date", item->data(Qt::UserRole + 1));
     }
-    
+
     settings.endArray();
 }
 
-// 3. Загрузка задач ==================================================
+// Загрузка задач ==================================================
 void MainWindow::loadTasks()
 {
     QSettings settings("MyCompany", "TaskManager");
     int size = settings.beginReadArray("tasks");
-    
+
     for (int i = 0; i < size; ++i) {
         settings.setArrayIndex(i);
         QListWidgetItem *item = new QListWidgetItem(settings.value("title").toString());
@@ -133,6 +133,6 @@ void MainWindow::loadTasks()
         item->setData(Qt::UserRole + 1, settings.value("date"));
         ui->tasksListWidget->addItem(item);
     }
-    
+
     settings.endArray();
 }
