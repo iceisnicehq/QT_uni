@@ -14,9 +14,6 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    connect(ui->addTaskButton, &QPushButton::clicked, this, &MainWindow::on_addTaskButton_clicked);
-    connect(ui->deleteTaskButton, &QPushButton::clicked, this, &MainWindow::on_deleteTaskButton_clicked);
-    connect(ui->detailsTaskButton, &QPushButton::clicked, this, &MainWindow::on_detailsTaskButton_clicked);
 }
 
 MainWindow::~MainWindow()
