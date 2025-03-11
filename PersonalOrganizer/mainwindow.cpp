@@ -106,7 +106,7 @@ void MainWindow::on_detailsTaskButton_clicked()
 // Сохранение задач ================================================
 void MainWindow::saveTasks()
 {
-    QSettings settings("MyCompany", "TaskManager");
+    QSettings settings;
     settings.beginWriteArray("tasks");
 
     for (int i = 0; i < ui->tasksListWidget->count(); ++i) {
@@ -123,7 +123,7 @@ void MainWindow::saveTasks()
 // Загрузка задач ==================================================
 void MainWindow::loadTasks()
 {
-    QSettings settings("MyCompany", "TaskManager");
+    QSettings settings;
     int size = settings.beginReadArray("tasks");
 
     for (int i = 0; i < size; ++i) {
