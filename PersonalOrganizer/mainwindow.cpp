@@ -9,6 +9,7 @@
 #include <QMessageBox>
 #include <QSettings> // dop
 
+//qfile
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -103,36 +104,85 @@ void MainWindow::on_detailsTaskButton_clicked()
     }
 }
 // dops
-// Сохранение задач ================================================
+// // Сохранение задач ================================================
+// void MainWindow::saveTasks()
+// {
+//     QSettings settings;
+//     settings.beginWriteArray("tasks");
+
+//     for (int i = 0; i < ui->tasksListWidget->count(); ++i) {
+//         settings.setArrayIndex(i);
+//         QListWidgetItem *item = ui->tasksListWidget->item(i);
+//         settings.setValue("title", item->text());
+//         settings.setValue("description", item->data(Qt::UserRole));
+//         settings.setValue("date", item->data(Qt::UserRole + 1));
+//     }
+
+//     settings.endArray();
+// }
 void MainWindow::saveTasks()
 {
-    QSettings settings;
-    settings.beginWriteArray("tasks");
-
-    for (int i = 0; i < ui->tasksListWidget->count(); ++i) {
-        settings.setArrayIndex(i);
-        QListWidgetItem *item = ui->tasksListWidget->item(i);
-        settings.setValue("title", item->text());
-        settings.setValue("description", item->data(Qt::UserRole));
-        settings.setValue("date", item->data(Qt::UserRole + 1));
+    QFile file("tasks.txt");
+    if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        QMessageBox::warning(this, "Ошибка", "Не удалось открыть файл для сохранения задач.");
+        return;
     }
 
-    settings.endArray();
+    QTextStream out(&file);
+    for (int i = 0; i < ui->tasksListWidget->count(); ++i) {
+        QListWidgetItem *item = ui->tasksListWidget->item(i);
+        QString title = item->text();
+        QString description = item->data(Qt::UserRole).toString();
+        QDate date = item->data(Qt::UserRole + 1).toDate();
+
+        // Сохраняем данные в формате: Название|Описание|Дата
+        out << title << "|" << description << "|" << date.toString("dd.MM.yyyy") << "\n";
+    }
+
+    file.close();
 }
 
 // Загрузка задач ==================================================
+// void MainWindow::loadTasks()
+// {
+//     QSettings settings;
+//     int size = settings.beginReadArray("tasks");
+
+//     for (int i = 0; i < size; ++i) {
+//         settings.setArrayIndex(i);
+//         QListWidgetItem *item = new QListWidgetItem(settings.value("title").toString());
+//         item->setData(Qt::UserRole, settings.value("description"));
+//         item->setData(Qt::UserRole + 1, settings.value("date"));
+//         ui->tasksListWidget->addItem(item);
+//     }
+
+//     settings.endArray();
+// }
+
 void MainWindow::loadTasks()
 {
-    QSettings settings;
-    int size = settings.beginReadArray("tasks");
-
-    for (int i = 0; i < size; ++i) {
-        settings.setArrayIndex(i);
-        QListWidgetItem *item = new QListWidgetItem(settings.value("title").toString());
-        item->setData(Qt::UserRole, settings.value("description"));
-        item->setData(Qt::UserRole + 1, settings.value("date"));
-        ui->tasksListWidget->addItem(item);
+    QFile file("tasks.txt");
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        QMessageBox::warning(this, "Ошибка", "Не удалось открыть файл для загрузки задач.");
+        return;
     }
 
-    settings.endArray();
+    QTextStream in(&file);
+    while (!in.atEnd()) {
+        QString line = in.readLine();
+        QStringList parts = line.split("|");
+
+        if (parts.size() == 3) {
+            QString title = parts[0];
+            QString description = parts[1];
+            QDate date = QDate::fromString(parts[2], "dd.MM.yyyy");
+
+            QListWidgetItem *item = new QListWidgetItem(title);
+            item->setData(Qt::UserRole, description);
+            item->setData(Qt::UserRole + 1, date);
+            ui->tasksListWidget->addItem(item);
+        }
+    }
+
+    file.close();
 }
