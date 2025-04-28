@@ -1,7 +1,7 @@
 # QT Creator
 UNI
 So far I've got next labs: <br>
-(1) - 1.0
+(1) - 1.0 pts
 
 
 
