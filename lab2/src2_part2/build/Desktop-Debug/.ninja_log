@@ -1,0 +1,23 @@
+# ninja log v5
+4	342	1745865322116645746	src2_autogen/timestamp	d35b321bb98c17d0
+4	342	1745865322116645746	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+4	342	1745865322116645746	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+4	342	1745865322116645746	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+343	2060	1745865323857602079	CMakeFiles/src2.dir/src2_autogen/mocs_compilation.cpp.o	217159df934e1719
+344	2113	1745865323914600649	CMakeFiles/src2.dir/main.cpp.o	45c066d2215e18f1
+345	2278	1745865324079596511	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+2278	2597	1745865324410588209	src2	e91311542fe37de4
+11	286	1745866249951599143	src2_autogen/timestamp	d35b321bb98c17d0
+11	286	1745866249951599143	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+11	286	1745866249951599143	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+11	286	1745866249951599143	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+286	1826	1745866251507573812	CMakeFiles/src2.dir/src2_autogen/mocs_compilation.cpp.o	217159df934e1719
+287	1845	1745866251523573552	CMakeFiles/src2.dir/main.cpp.o	45c066d2215e18f1
+287	2123	1745866251805568961	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+2124	2387	1745866251946566667	src2	e91311542fe37de4
+13	85	1745866387113565796	src2_autogen/timestamp	d35b321bb98c17d0
+13	85	1745866387113565796	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+13	85	1745866387113565796	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+13	85	1745866387113565796	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+88	1637	1745866392671493036	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+1637	1918	1745866392964489200	src2	e91311542fe37de4

@@ -1,0 +1,26 @@
+# ninja log v5
+13	85	1745866387113565796	src2_autogen/timestamp	d35b321bb98c17d0
+13	85	1745866387113565796	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+13	85	1745866387113565796	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+13	85	1745866387113565796	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+286	1826	1745866251507573812	CMakeFiles/src2.dir/src2_autogen/mocs_compilation.cpp.o	217159df934e1719
+287	1845	1745866251523573552	CMakeFiles/src2.dir/main.cpp.o	45c066d2215e18f1
+88	1637	1745866392671493036	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+1637	1918	1745866392964489200	src2	e91311542fe37de4
+11	290	1745866953299431414	src2_autogen/timestamp	d35b321bb98c17d0
+11	290	1745866953299431414	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+11	290	1745866953299431414	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+11	290	1745866953299431414	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+294	1373	1745866954403410153	CMakeFiles/src2.dir/data_processor.cpp.o	e8288765b5c63288
+291	1794	1745866954821402103	CMakeFiles/src2.dir/src2_autogen/mocs_compilation.cpp.o	217159df934e1719
+291	1865	1745866954840401737	CMakeFiles/src2.dir/main.cpp.o	45c066d2215e18f1
+14	88	1745866989817728113	src2_autogen/timestamp	d35b321bb98c17d0
+14	88	1745866989817728113	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+14	88	1745866989817728113	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+14	88	1745866989817728113	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+10	65	1745867143851331863	src2_autogen/timestamp	d35b321bb98c17d0
+10	65	1745867143851331863	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+10	65	1745867143851331863	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+10	65	1745867143851331863	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+68	1509	1745867156999974802	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+1510	1789	1745867157290966899	src2	fd12c36d11debcc1
