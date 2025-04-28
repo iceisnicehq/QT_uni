@@ -1,0 +1,21 @@
+# ninja log v5
+3	260	1745876901984949929	src2_autogen/timestamp	d35b321bb98c17d0
+3	260	1745876901984949929	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+3	260	1745876901984949929	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+3	260	1745876901984949929	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+262	1394	1745876903125919151	CMakeFiles/src2.dir/src2_autogen/mocs_compilation.cpp.o	217159df934e1719
+262	1417	1745876903144918637	CMakeFiles/src2.dir/main.cpp.o	45c066d2215e18f1
+262	1601	1745876903348913116	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+1602	1869	1745876903626905594	src2	e91311542fe37de4
+7	73	1745876963281191937	src2_autogen/timestamp	d35b321bb98c17d0
+7	73	1745876963281191937	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+7	73	1745876963281191937	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+7	73	1745876963281191937	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+75	1417	1745876970892966080	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+1417	1691	1745876971177957624	src2	e91311542fe37de4
+14	95	1745877594856072587	src2_autogen/timestamp	d35b321bb98c17d0
+14	95	1745877594856072587	src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+14	95	1745877594856072587	/home/user/src2/build/Desktop-Debug/src2_autogen/timestamp	d35b321bb98c17d0
+14	95	1745877594856072587	/home/user/src2/build/Desktop-Debug/src2_autogen/mocs_compilation.cpp	d35b321bb98c17d0
+97	1819	1745877665151274769	CMakeFiles/src2.dir/mainwindow.cpp.o	ee7b9dc08869f139
+1819	2122	1745877665465266739	src2	e91311542fe37de4

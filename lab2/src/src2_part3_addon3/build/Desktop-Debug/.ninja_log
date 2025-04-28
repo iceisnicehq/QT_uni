@@ -1,0 +1,20 @@
+# ninja log v5
+4	376	1745879664015376626	lr2_dop3_autogen/timestamp	42b97eff8f74b96a
+4	376	1745879664015376626	lr2_dop3_autogen/mocs_compilation.cpp	42b97eff8f74b96a
+4	376	1745879664015376626	/home/user/src2/build/Desktop-Debug/lr2_dop3_autogen/timestamp	42b97eff8f74b96a
+4	376	1745879664015376626	/home/user/src2/build/Desktop-Debug/lr2_dop3_autogen/mocs_compilation.cpp	42b97eff8f74b96a
+380	1871	1745879665542340512	CMakeFiles/lr2_dop3.dir/data_processor.cpp.o	79a2a12deb1d7479
+378	2034	1745879665712336494	CMakeFiles/lr2_dop3.dir/advanced_data_processor.cpp.o	b059ec2f98d4ab76
+377	2463	1745879666126326702	CMakeFiles/lr2_dop3.dir/lr2_dop3_autogen/mocs_compilation.cpp.o	c80eb8923878c615
+378	2511	1745879666182325379	CMakeFiles/lr2_dop3.dir/mainwindow.cpp.o	e5b653e726221711
+378	2526	1745879666199324977	CMakeFiles/lr2_dop3.dir/main.cpp.o	f5a84cd41fa13b8c
+2531	2941	1745879666620315021	lr2_dop3	3cd8188f8ed9f23a
+11	372	1745880023766868705	lr2_dop3_autogen/timestamp	42b97eff8f74b96a
+11	372	1745880023766868705	lr2_dop3_autogen/mocs_compilation.cpp	42b97eff8f74b96a
+11	372	1745880023766868705	/home/user/src2/build/Desktop-Debug/lr2_dop3_autogen/timestamp	42b97eff8f74b96a
+11	372	1745880023766868705	/home/user/src2/build/Desktop-Debug/lr2_dop3_autogen/mocs_compilation.cpp	42b97eff8f74b96a
+376	1589	1745880024991839680	CMakeFiles/lr2_dop3.dir/advanced_data_processor.cpp.o	b059ec2f98d4ab76
+375	1860	1745880025054838193	CMakeFiles/lr2_dop3.dir/lr2_dop3_autogen/mocs_compilation.cpp.o	c80eb8923878c615
+375	1919	1745880025348831254	CMakeFiles/lr2_dop3.dir/main.cpp.o	f5a84cd41fa13b8c
+376	1964	1745880025391830239	CMakeFiles/lr2_dop3.dir/mainwindow.cpp.o	e5b653e726221711
+1964	2294	1745880025732822190	lr2_dop3	3cd8188f8ed9f23a
