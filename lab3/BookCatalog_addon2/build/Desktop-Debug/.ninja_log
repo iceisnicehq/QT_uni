@@ -1,0 +1,27 @@
+# ninja log v5
+10	323	1746025338792490669	BookCatalog_autogen/timestamp	4e170a7031c2d4ca
+10	323	1746025338792490669	BookCatalog_autogen/mocs_compilation.cpp	4e170a7031c2d4ca
+10	323	1746025338792490669	/home/user/BookCatalog/build/Desktop-Debug/BookCatalog_autogen/timestamp	4e170a7031c2d4ca
+10	323	1746025338792490669	/home/user/BookCatalog/build/Desktop-Debug/BookCatalog_autogen/mocs_compilation.cpp	4e170a7031c2d4ca
+325	1846	1746025340340454628	CMakeFiles/BookCatalog.dir/main.cpp.o	48a06b4360d8739a
+324	356	1746020565661556144	BookCatalog_autogen/EWIEGA46WW/qrc_icons.cpp	219ca84eea82a72f
+359	481	1746020565774553514	CMakeFiles/BookCatalog.dir/BookCatalog_autogen/EWIEGA46WW/qrc_icons.cpp.o	2a97cc17cc8d2ed2
+324	356	1746020565661556144	/home/user/BookCatalog/build/Desktop-Debug/BookCatalog_autogen/EWIEGA46WW/qrc_icons.cpp	219ca84eea82a72f
+326	2666	1746025341151435679	CMakeFiles/BookCatalog.dir/mainwindow.cpp.o	4696f5b0242dc6c7
+2666	3000	1746025341507427379	BookCatalog	bf9a271a3d965cf2
+324	1808	1746025340304455469	CMakeFiles/BookCatalog.dir/BookCatalog_autogen/mocs_compilation.cpp.o	8737069e3f265ad2
+14	85	1746026784503114714	BookCatalog_autogen/timestamp	4e170a7031c2d4ca
+14	85	1746026784503114714	BookCatalog_autogen/mocs_compilation.cpp	4e170a7031c2d4ca
+14	85	1746026784503114714	/home/user/BookCatalog/build/Desktop-Debug/BookCatalog_autogen/timestamp	4e170a7031c2d4ca
+14	85	1746026784503114714	/home/user/BookCatalog/build/Desktop-Debug/BookCatalog_autogen/mocs_compilation.cpp	4e170a7031c2d4ca
+86	1570	1746026786007079982	CMakeFiles/BookCatalog.dir/BookCatalog_autogen/mocs_compilation.cpp.o	8737069e3f265ad2
+87	1606	1746026786044079131	CMakeFiles/BookCatalog.dir/editbookdialog.cpp.o	fff1bf45952d8699
+86	2346	1746026786780062197	CMakeFiles/BookCatalog.dir/mainwindow.cpp.o	4696f5b0242dc6c7
+2349	2660	1746026787106054697	BookCatalog	caecd19609bb2444
+12	74	1746027054431892911	BookCatalog_autogen/timestamp	4e170a7031c2d4ca
+12	74	1746027054431892911	BookCatalog_autogen/mocs_compilation.cpp	4e170a7031c2d4ca
+12	74	1746027054431892911	/home/user/BookCatalog/build/Desktop-Debug/BookCatalog_autogen/timestamp	4e170a7031c2d4ca
+12	74	1746027054431892911	/home/user/BookCatalog/build/Desktop-Debug/BookCatalog_autogen/mocs_compilation.cpp	4e170a7031c2d4ca
+77	1592	1746027058797792280	CMakeFiles/BookCatalog.dir/editbookdialog.cpp.o	fff1bf45952d8699
+76	2257	1746027059460776998	CMakeFiles/BookCatalog.dir/mainwindow.cpp.o	4696f5b0242dc6c7
+2257	2514	1746027059502776030	BookCatalog	caecd19609bb2444

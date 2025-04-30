@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1e5fe8cd359b2ef5857e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BookCatalog",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BookCatalog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookCatalog-Debug-acfe51b1a1d0524e1393.json",
+					"name" : "BookCatalog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BookCatalog_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookCatalog_autogen-Debug-3bbd7da5de8c10280f76.json",
+					"name" : "BookCatalog_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BookCatalog_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BookCatalog_autogen_timestamp_deps-Debug-84f1b988865e131f3224.json",
+					"name" : "BookCatalog_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/BookCatalog/build/Desktop-Debug",
+		"source" : "/home/user/BookCatalog"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
