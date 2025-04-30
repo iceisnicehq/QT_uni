@@ -1,8 +1,10 @@
 # QT Creator
-source [link](https://github.com/auteam-usr/labs_RGUNG/tree/qt) 
+source [link](https://github.com/auteam-usr/labs_RGUNG/tree/qt)  <br>
+The table of approval - [link](https://docs.google.com/spreadsheets/d/1-SbQd7OGTw_Oq1YQgsSbNO1CwjXK0eglEy_Kch2QCcI/edit?usp=sharing)
+
 | Lab num |⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀ Lab name                                      | Lab points |
 |:-------:|:--------------------------------------------------------------------------|:----------:|
-|   1     | Основы работы с виджетами в Qt                                            | 1.0 pts    |
+|   1     | Основы работы с виджетами в Qt                                            | 2.0 pts    |
 |   2     | Работа с базовыми типами, реализация сигналов и слотов                    |            |
 |   3     | Разработка интерфейса с использованием стандартных виджетов               |            |
 |   4     | Создание кастомного виджета с переопределением событий отрисовки          |            |
