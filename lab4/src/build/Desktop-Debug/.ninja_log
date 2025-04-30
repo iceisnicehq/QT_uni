@@ -1,0 +1,10 @@
+# ninja log v5
+2	526	1746045962442592123	lab4_autogen/timestamp	959ca64f9f6173a3
+2	526	1746045962442592123	lab4_autogen/mocs_compilation.cpp	959ca64f9f6173a3
+2	526	1746045962442592123	/home/user/lab4/build/Desktop-Debug/lab4_autogen/timestamp	959ca64f9f6173a3
+2	526	1746045962442592123	/home/user/lab4/build/Desktop-Debug/lab4_autogen/mocs_compilation.cpp	959ca64f9f6173a3
+527	2924	1746045964856530540	CMakeFiles/lab4.dir/main.cpp.o	65bf8d5e18450bb
+527	2973	1746045964856530540	CMakeFiles/lab4.dir/mainwindow.cpp.o	7e3de47a4b272318
+527	2987	1746045964856530540	CMakeFiles/lab4.dir/lab4_autogen/mocs_compilation.cpp.o	cb13ba4a0b515d6d
+528	2998	1746045964923528831	CMakeFiles/lab4.dir/progressindicator.cpp.o	e5ed61fe730b99d8
+2998	3300	1746045965236520846	lab4	f7868ac19e120221
