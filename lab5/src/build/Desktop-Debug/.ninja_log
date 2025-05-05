@@ -1,0 +1,13 @@
+# ninja log v5
+3	358	1746052394620678728	GraphicEditor_autogen/timestamp	3b9e8b20ba8b8c7e
+3	358	1746052394620678728	GraphicEditor_autogen/mocs_compilation.cpp	3b9e8b20ba8b8c7e
+3	358	1746052394620678728	/home/user/GraphicEditor/build/Desktop-Debug/GraphicEditor_autogen/timestamp	3b9e8b20ba8b8c7e
+3	358	1746052394620678728	/home/user/GraphicEditor/build/Desktop-Debug/GraphicEditor_autogen/mocs_compilation.cpp	3b9e8b20ba8b8c7e
+362	1474	1746052395758650376	CMakeFiles/GraphicEditor.dir/customgraphicsscene.cpp.o	729abc015766f88e
+361	1706	1746052395758650376	CMakeFiles/GraphicEditor.dir/shape.cpp.o	faf9061576e4e294
+360	1931	1746052396209639139	CMakeFiles/GraphicEditor.dir/main.cpp.o	dc184e706b0f5b58
+360	1981	1746052396209639139	CMakeFiles/GraphicEditor.dir/mainwindow.cpp.o	1db81b3bbf8dc0b8
+359	2007	1746052396264637769	CMakeFiles/GraphicEditor.dir/GraphicEditor_autogen/mocs_compilation.cpp.o	c7b4c5edddc183e9
+361	2626	1746052396264637769	CMakeFiles/GraphicEditor.dir/graphicmodel.cpp.o	926c14db22b3ed7d
+362	2868	1746052397149615719	CMakeFiles/GraphicEditor.dir/graphiccontroller.cpp.o	cfb8f70f1eee8c0b
+2868	3164	1746052397450608220	GraphicEditor	1ed05c605fc1bc3b
