@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_GraphicEditor_FILE /home/user/GraphicEditor/build/Desktop-Debug/GraphicEditor)
-set(__QT_DEPLOY_TARGET_GraphicEditor_TYPE EXECUTABLE)

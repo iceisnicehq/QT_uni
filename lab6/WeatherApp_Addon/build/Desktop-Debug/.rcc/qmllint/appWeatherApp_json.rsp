@@ -1,0 +1,13 @@
+--bare
+-I
+/home/user/WeatherApp/build/Desktop-Debug
+-I
+/usr/lib64/qt6/qml
+--resource
+/home/user/WeatherApp/build/Desktop-Debug/.qt/rcc/qmake_WeatherApp.qrc
+--resource
+/home/user/WeatherApp/build/Desktop-Debug/.qt/rcc/appWeatherApp_raw_qml_0.qrc
+/home/user/WeatherApp/Main.qml
+/home/user/WeatherApp/WeatherFetcher.js
+--json
+/home/user/WeatherApp/build/Desktop-Debug/appWeatherApp_qmllint.json

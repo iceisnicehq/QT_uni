@@ -1,0 +1,6 @@
+module WeatherApp
+typeinfo appWeatherApp.qmltypes
+prefer :/qt/qml/WeatherApp/
+Main 1.0 Main.qml
+WeatherFetcher 1.0 WeatherFetcher.js
+

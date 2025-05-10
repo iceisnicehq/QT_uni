@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/WeatherApp/">
+    <file alias="Main.qml">/home/user/WeatherApp/Main.qml</file>
+    <file alias="WeatherFetcher.js">/home/user/WeatherApp/WeatherFetcher.js</file>
+  </qresource>
+</RCC>
+
