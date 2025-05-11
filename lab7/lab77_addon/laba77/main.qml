@@ -5,7 +5,7 @@ import QtQuick.Dialogs
 
 ApplicationWindow {
     id: window
-    width: 800
+    width: 1000
     height: 600
     visible: true
     title: qsTr("Библиотека")
@@ -50,13 +50,13 @@ ApplicationWindow {
                     TextField {
                             id: authorField2
                             placeholderText: "Автор"
-                            Layout.fillWidth: true
+                        Layout.preferredWidth: 100
                     }
 
                     TextField {
                         id: genreField2
                         placeholderText: "Жанр"
-                        Layout.fillWidth: true
+                        Layout.preferredWidth: 100
                     }
 
                     TextField {
