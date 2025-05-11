@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_file_searcher_FILE /home/user/file_searcher/build/Desktop-Debug/file_searcher)
+set(__QT_DEPLOY_TARGET_file_searcher_TYPE EXECUTABLE)

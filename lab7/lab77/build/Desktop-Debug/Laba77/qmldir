@@ -1,0 +1,4 @@
+module Laba77
+typeinfo laba77.qmltypes
+prefer :/Laba77/
+

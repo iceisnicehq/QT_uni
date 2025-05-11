@@ -1,0 +1,5 @@
+/home/user/file_searcher/build/Desktop-Debug/CMakeFiles/file_searcher.dir
+/home/user/file_searcher/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/user/file_searcher/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/user/file_searcher/build/Desktop-Debug/CMakeFiles/file_searcher_autogen_timestamp_deps.dir
+/home/user/file_searcher/build/Desktop-Debug/CMakeFiles/file_searcher_autogen.dir

@@ -1,0 +1,14 @@
+-rootPath
+/home/user/lab77
+-cmake-output
+-output-file
+/home/user/lab77/build/Desktop-Debug/.qt/qml_imports/laba77_conf.cmake
+-importPath
+/home/user/lab77/build/Desktop-Debug/Laba77
+-importPath
+/home/user/lab77/build/Desktop-Debug
+-importPath
+/usr/lib64/qt6/qml
+-qrcFiles
+/home/user/lab77/build/Desktop-Debug/.qt/rcc/qmake_Laba77.qrc
+/home/user/lab77/build/Desktop-Debug/.qt/rcc/laba77_raw_qml_0.qrc

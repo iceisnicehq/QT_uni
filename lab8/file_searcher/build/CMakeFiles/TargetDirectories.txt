@@ -1,0 +1,5 @@
+C:/Users/Ice/QT_uni/lab8/file_searcher/build/CMakeFiles/file_searcher.dir
+C:/Users/Ice/QT_uni/lab8/file_searcher/build/CMakeFiles/edit_cache.dir
+C:/Users/Ice/QT_uni/lab8/file_searcher/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Ice/QT_uni/lab8/file_searcher/build/CMakeFiles/file_searcher_autogen_timestamp_deps.dir
+C:/Users/Ice/QT_uni/lab8/file_searcher/build/CMakeFiles/file_searcher_autogen.dir

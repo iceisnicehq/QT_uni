@@ -1,0 +1,9 @@
+# ninja log v5
+2	620	1746962298027487769	lab8_autogen/timestamp	6e42a2bd5bfc550d
+2	620	1746962298027487769	lab8_autogen/mocs_compilation.cpp	6e42a2bd5bfc550d
+2	620	1746962298027487769	/home/user/lab8/build/Desktop-Debug/lab8_autogen/timestamp	6e42a2bd5bfc550d
+2	620	1746962298027487769	/home/user/lab8/build/Desktop-Debug/lab8_autogen/mocs_compilation.cpp	6e42a2bd5bfc550d
+622	4175	1746962301604414595	CMakeFiles/lab8.dir/main.cpp.o	bf8dc42f1a533593
+622	4260	1746962301689412856	CMakeFiles/lab8.dir/lab8_autogen/mocs_compilation.cpp.o	791ab34f20f8557
+622	4708	1746962302135403732	CMakeFiles/lab8.dir/mainwindow.cpp.o	60f3555cde35d4e1
+4708	5080	1746962302528395693	lab8	971f89be886afa67

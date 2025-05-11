@@ -1,0 +1,2 @@
+/home/user/lab77/build/Desktop-Debug/laba77_autogen/include/../EWIEGA46WW/moc_database.cpp.json
+/home/user/lab77/build/Desktop-Debug/laba77_autogen/include/../EWIEGA46WW/moc_mainwindow.cpp.json

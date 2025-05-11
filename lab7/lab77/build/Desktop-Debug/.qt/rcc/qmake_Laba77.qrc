@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Laba77">
+    <file alias="qmldir">/home/user/lab77/build/Desktop-Debug/Laba77/qmldir</file>
+  </qresource>
+</RCC>
+

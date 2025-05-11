@@ -1,0 +1,19 @@
+# ninja log v5
+262	3267	1746971620884864931	CMakeFiles/file_searcher.dir/mainwindow.cpp.o	426f978841cdbe24
+3267	3535	1746971621200858438	file_searcher	ae832fa42b678409
+263	1649	1746971619303897417	CMakeFiles/file_searcher.dir/filesearcher.cpp.o	cc8c55fe7fef6608
+14	261	1746971617884926573	/home/user/file_searcher/build/Desktop-Debug/file_searcher_autogen/mocs_compilation.cpp	e09cb98d51d851a0
+14	261	1746971617884926573	/home/user/file_searcher/build/Desktop-Debug/file_searcher_autogen/timestamp	e09cb98d51d851a0
+385	1995	1746969986689482383	CMakeFiles/file_searcher.dir/main.cpp.o	e0448b5f4f50e21a
+14	261	1746971617884926573	file_searcher_autogen/mocs_compilation.cpp	e09cb98d51d851a0
+262	1867	1746971619517893020	CMakeFiles/file_searcher.dir/file_searcher_autogen/mocs_compilation.cpp.o	b25ee6051d4accc5
+14	261	1746971617884926573	file_searcher_autogen/timestamp	e09cb98d51d851a0
+5	331	1746972938738776378	file_searcher_autogen/timestamp	e09cb98d51d851a0
+5	331	1746972938738776378	file_searcher_autogen/mocs_compilation.cpp	e09cb98d51d851a0
+5	331	1746972938738776378	/home/user/file_searcher/build/Desktop-Debug/file_searcher_autogen/timestamp	e09cb98d51d851a0
+5	331	1746972938738776378	/home/user/file_searcher/build/Desktop-Debug/file_searcher_autogen/mocs_compilation.cpp	e09cb98d51d851a0
+333	1918	1746972940296744348	CMakeFiles/file_searcher.dir/filesearcher.cpp.o	cc8c55fe7fef6608
+331	2111	1746972940493740297	CMakeFiles/file_searcher.dir/file_searcher_autogen/mocs_compilation.cpp.o	b25ee6051d4accc5
+331	2131	1746972940548739168	CMakeFiles/file_searcher.dir/main.cpp.o	e0448b5f4f50e21a
+332	3424	1746972941821712995	CMakeFiles/file_searcher.dir/mainwindow.cpp.o	426f978841cdbe24
+3425	3687	1746972942126706725	file_searcher	ae832fa42b678409

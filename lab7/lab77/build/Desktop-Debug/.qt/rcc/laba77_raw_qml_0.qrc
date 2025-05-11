@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Laba77/">
+    <file alias="main.qml">/home/user/lab77/main.qml</file>
+  </qresource>
+</RCC>
+

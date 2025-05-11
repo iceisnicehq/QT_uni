@@ -1,0 +1,130 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Database",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "author",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "year",
+                                "type": "int"
+                            },
+                            {
+                                "name": "genre",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "available",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addBook",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "author",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "year",
+                                "type": "int"
+                            },
+                            {
+                                "name": "genre",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "available",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "updateBook",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "deleteBook",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "getAllBooks",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "searchTerm",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "searchBooks",
+                        "returnType": "QVariantList"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Database",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "database.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "MainWindow",
+                "lineNumber": 10,
+                "object": true,
+                "qualifiedClassName": "MainWindow",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QMainWindow"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "mainwindow.h",
+        "outputRevision": 68
+    }
+]

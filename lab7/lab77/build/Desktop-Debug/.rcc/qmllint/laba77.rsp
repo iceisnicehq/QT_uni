@@ -1,0 +1,10 @@
+--bare
+-I
+/home/user/lab77/build/Desktop-Debug
+-I
+/usr/lib64/qt6/qml
+--resource
+/home/user/lab77/build/Desktop-Debug/.qt/rcc/qmake_Laba77.qrc
+--resource
+/home/user/lab77/build/Desktop-Debug/.qt/rcc/laba77_raw_qml_0.qrc
+/home/user/lab77/main.qml
