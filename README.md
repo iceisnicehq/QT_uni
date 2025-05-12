@@ -2,7 +2,7 @@
 source [link](https://github.com/auteam-usr/labs_RGUNG/tree/qt)  <br>
 The table of approval - [link](https://docs.google.com/spreadsheets/d/1-SbQd7OGTw_Oq1YQgsSbNO1CwjXK0eglEy_Kch2QCcI/edit?usp=sharing)
 
-| Lab num |⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀ Lab name                                      | Lab points |
+| Lab num | Lab name                                                                  | Lab points |
 |:-------:|:--------------------------------------------------------------------------|:----------:|
 |   1     | Основы работы с виджетами в Qt                                            | 2.0 pts    |
 |   2     | Работа с базовыми типами, реализация сигналов и слотов                    |            |
@@ -10,6 +10,10 @@ The table of approval - [link](https://docs.google.com/spreadsheets/d/1-SbQd7OGT
 |   4     | Создание кастомного виджета с переопределением событий отрисовки          |            |
 |   5     | Работа с графическими примитивами, использование MVC                      |            |
 |   6     | Разработка приложения на QML                                              |            |
+|   7     | Разработка приложения с использованием базы данных в QML                  |            |
+|   8     | Реализация многопоточности в приложении с использованием QThread          |            |
+|   9     | QIODevice, работа с внешними устройствами                                 |            |
+|   10    | Основы работы с сетью с использованием QtNetwork                          |            |
 
 
 
