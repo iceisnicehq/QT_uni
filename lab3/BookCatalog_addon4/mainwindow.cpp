@@ -202,7 +202,7 @@ void MainWindow::importCSV()
                 }
             }
 
-            if (fields.size() != 4) {
+            if (fields.size() != 7) {
                 continue;
             }
 
@@ -293,6 +293,10 @@ void MainWindow::exportJSON()
         bookObject["title"] = model->item(row, 1)->text();
         bookObject["year"] = model->item(row, 2)->text().toInt();
         bookObject["genre"] = model->item(row, 3)->text();
+        bookObject["publisher"] = model->item(row, 4)->text();
+        bookObject["isbn"] = model->item(row, 5)->text();
+        bookObject["pages"] = model->item(row, 6)->text().toInt();
+
         booksArray.append(bookObject);
     }
 
@@ -335,7 +339,10 @@ void MainWindow::importJSON()
         rowItems << new QStandardItem(bookObject["author"].toString())
                  << new QStandardItem(bookObject["title"].toString())
                  << new QStandardItem(QString::number(bookObject["year"].toInt()))
-                 << new QStandardItem(bookObject["genre"].toString());
+                 << new QStandardItem(bookObject["genre"].toString())
+                 << new QStandardItem(bookObject["publisher"].toString())
+                 << new QStandardItem(bookObject["isbn"].toString())
+                 << new QStandardItem(QString::number(bookObject["pages"].toInt()));
 
         model->appendRow(rowItems);
     }
