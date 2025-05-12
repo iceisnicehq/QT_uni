@@ -1,0 +1,11 @@
+# ninja log v5
+3	316	1747012749135087515	BluetoothEmulator_autogen/timestamp	4edc60dbbb2bf60a
+3	316	1747012749135087515	BluetoothEmulator_autogen/mocs_compilation.cpp	4edc60dbbb2bf60a
+3	316	1747012749135087515	/home/user/BluetoothEmulator/build/Desktop-Debug/BluetoothEmulator_autogen/timestamp	4edc60dbbb2bf60a
+3	316	1747012749135087515	/home/user/BluetoothEmulator/build/Desktop-Debug/BluetoothEmulator_autogen/mocs_compilation.cpp	4edc60dbbb2bf60a
+319	2049	1747012750827051322	CMakeFiles/BluetoothEmulator.dir/deviceselectiondialog.cpp.o	4c6d0345d2273398
+319	2097	1747012750937048969	CMakeFiles/BluetoothEmulator.dir/deviceemulator.cpp.o	3ea4a86e7e07f907
+318	2173	1747012750958048520	CMakeFiles/BluetoothEmulator.dir/main.cpp.o	b8b2d28a23b0b3ec
+318	2203	1747012751040046767	CMakeFiles/BluetoothEmulator.dir/BluetoothEmulator_autogen/mocs_compilation.cpp.o	a1a5c2139bd6523f
+318	2219	1747012751055046446	CMakeFiles/BluetoothEmulator.dir/mainwindow.cpp.o	a2e581c6da72a87
+2219	2564	1747012751414038769	BluetoothEmulator	4bf14a63ad9ec266

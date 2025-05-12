@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-dc57eb349b2958052f39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bluetoothEmulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bluetoothEmulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bluetoothEmulator-Debug-62430428ad07cc556903.json",
+					"name" : "bluetoothEmulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bluetoothEmulator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bluetoothEmulator_autogen-Debug-fb727206fe5d094029c1.json",
+					"name" : "bluetoothEmulator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bluetoothEmulator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bluetoothEmulator_autogen_timestamp_deps-Debug-8897bb644e0ef7719603.json",
+					"name" : "bluetoothEmulator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/bluetoothEmulator/build/Desktop-Debug",
+		"source" : "/home/user/bluetoothEmulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

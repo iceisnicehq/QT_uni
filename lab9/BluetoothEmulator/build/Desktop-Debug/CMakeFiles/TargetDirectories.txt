@@ -1,0 +1,5 @@
+/home/user/BluetoothEmulator/build/Desktop-Debug/CMakeFiles/BluetoothEmulator.dir
+/home/user/BluetoothEmulator/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/user/BluetoothEmulator/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/user/BluetoothEmulator/build/Desktop-Debug/CMakeFiles/BluetoothEmulator_autogen_timestamp_deps.dir
+/home/user/BluetoothEmulator/build/Desktop-Debug/CMakeFiles/BluetoothEmulator_autogen.dir

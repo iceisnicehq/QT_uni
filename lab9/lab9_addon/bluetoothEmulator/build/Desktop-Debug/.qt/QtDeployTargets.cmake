@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_bluetoothEmulator_FILE /home/user/bluetoothEmulator/build/Desktop-Debug/bluetoothEmulator)
+set(__QT_DEPLOY_TARGET_bluetoothEmulator_TYPE EXECUTABLE)

@@ -1,0 +1,25 @@
+# ninja log v5
+6391	8344	1746969114137887435	CMakeFiles/bluetoothEmulator.dir/deviceemulator.cpp.o	d7dfb56baab6137c
+23	784	1746969106539771452	bluetoothEmulator_autogen/timestamp	4f67640d6155e8d8
+23	784	1746969106539771452	/home/user/bluetoothEmulator/build/Desktop-Debug/bluetoothEmulator_autogen/timestamp	4f67640d6155e8d8
+8418	9053	1746969114854898380	bluetoothEmulator	9af3f588b94f80f1
+6436	8417	1746969114209888534	CMakeFiles/bluetoothEmulator.dir/deviceselectiondialog.cpp.o	9050588825a09c9b
+23	784	1746969106539771452	bluetoothEmulator_autogen/mocs_compilation.cpp	4f67640d6155e8d8
+11	174	1746968912471809077	/home/user/bluetoothEmulator/build/Desktop-Debug/BluetoothEmulator_autogen/mocs_compilation.cpp	ecfb2d430bb031aa
+23	784	1746969106539771452	/home/user/bluetoothEmulator/build/Desktop-Debug/bluetoothEmulator_autogen/mocs_compilation.cpp	4f67640d6155e8d8
+11	174	1746968912471809077	BluetoothEmulator_autogen/mocs_compilation.cpp	ecfb2d430bb031aa
+11	174	1746968912471809077	BluetoothEmulator_autogen/timestamp	ecfb2d430bb031aa
+11	285	1746979675424114709	build.ninja	d5cf80ba7852c1c8
+11	174	1746968912471809077	/home/user/bluetoothEmulator/build/Desktop-Debug/BluetoothEmulator_autogen/timestamp	ecfb2d430bb031aa
+784	6391	1746969112150857103	CMakeFiles/bluetoothEmulator.dir/main.cpp.o	390b67eebc14790a
+785	6436	1746969112213858065	CMakeFiles/bluetoothEmulator.dir/mainwindow.cpp.o	29b834e2c9090c5e
+784	6490	1746969112236858416	CMakeFiles/bluetoothEmulator.dir/bluetoothEmulator_autogen/mocs_compilation.cpp.o	38cc6ef3844165a1
+32	573	1746979679311174046	bluetoothEmulator_autogen/timestamp	4f67640d6155e8d8
+32	573	1746979679311174046	bluetoothEmulator_autogen/mocs_compilation.cpp	4f67640d6155e8d8
+32	573	1746979679311174046	/home/user/bluetoothEmulator/build/Desktop-Debug/bluetoothEmulator_autogen/timestamp	4f67640d6155e8d8
+32	573	1746979679311174046	/home/user/bluetoothEmulator/build/Desktop-Debug/bluetoothEmulator_autogen/mocs_compilation.cpp	4f67640d6155e8d8
+575	5152	1746979683907244209	CMakeFiles/bluetoothEmulator.dir/main.cpp.o	390b67eebc14790a
+575	5552	1746979684343250865	CMakeFiles/bluetoothEmulator.dir/bluetoothEmulator_autogen/mocs_compilation.cpp.o	38cc6ef3844165a1
+575	6417	1746979685203263994	CMakeFiles/bluetoothEmulator.dir/mainwindow.cpp.o	29b834e2c9090c5e
+5153	7549	1746979686343281398	CMakeFiles/bluetoothEmulator.dir/deviceemulator.cpp.o	d7dfb56baab6137c
+7549	8249	1746979687054292252	bluetoothEmulator	9af3f588b94f80f1
