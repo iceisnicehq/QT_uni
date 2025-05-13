@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/WeatherApp">
+    <file alias="qmldir">/home/user/WeatherApp/build/Desktop-Debug/WeatherApp/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,10 @@
+-I
+/home/user/WeatherApp/build/Desktop-Debug
+-I
+/usr/lib64/qt6/qml
+--resource
+/home/user/WeatherApp/build/Desktop-Debug/.qt/rcc/qmake_WeatherApp.qrc
+--resource
+/home/user/WeatherApp/build/Desktop-Debug/.qt/rcc/appWeatherApp_raw_qml_0.qrc
+--module
+WeatherApp

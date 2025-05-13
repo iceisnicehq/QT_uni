@@ -1,0 +1,14 @@
+-rootPath
+/home/user/WeatherApp
+-cmake-output
+-output-file
+/home/user/WeatherApp/build/Desktop-Debug/.qt/qml_imports/appWeatherApp_build.cmake
+-importPath
+/home/user/WeatherApp/build/Desktop-Debug/WeatherApp
+-importPath
+/home/user/WeatherApp/build/Desktop-Debug
+-importPath
+/usr/lib64/qt6/qml
+-qrcFiles
+/home/user/WeatherApp/build/Desktop-Debug/.qt/rcc/qmake_WeatherApp.qrc
+/home/user/WeatherApp/build/Desktop-Debug/.qt/rcc/appWeatherApp_raw_qml_0.qrc
