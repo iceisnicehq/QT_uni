@@ -75,6 +75,10 @@ Item {
         anchors.margins: 0
         height: parent.height / 2
         rotation: 0
+        MouseArea {
+            anchors.fill: parent
+            onClicked: rotAnim.running = true
+        }
         PropertyAnimation {
             id: rotAnim
             target: image
@@ -136,4 +140,5 @@ Item {
         }
     }
 }
+
 ```
