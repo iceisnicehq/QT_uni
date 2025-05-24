@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.auroraos.Animations
+Exec=/usr/bin/ru.auroraos.Animations
+Name=Animations
+Name[ru]=Анимации
+
+[X-Application]
+Permissions=
+OrganizationName=ru.auroraos
+ApplicationName=Animations
+ExecDBus=/usr/bin/ru.auroraos.Animations
