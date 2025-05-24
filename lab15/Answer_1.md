@@ -90,6 +90,8 @@ projects/animations_aurora/
   2. Срабатывает `MouseArea.onClicked`, свойство `running` у `RotationAnimation` становится `true`.
   3. Элемент плавно вращается на 360° в течение 2 секунд.
 
+![](img_ans/animation.gif)
+
 #### 3.2 Смена цвета прямоугольника (`ColorAnimation` + `States` + `Transitions`)
 
 * **Файл**: `qml/Animations.qml`
@@ -135,6 +137,8 @@ projects/animations_aurora/
   1. При нажатии (`rectangleMouseArea.pressed == true`) активируется состояние `blue` и запускается `ColorAnimation` длительностью 2 с.
   2. При отпускании (`pressed == false`) состояние возвращается, запускается обратная анимация 0.5 с.
 
+![](img_ans/rect_anim.gif)
+
 ---
 
 ### Общая логика взаимодействия
@@ -144,6 +148,8 @@ projects/animations_aurora/
   * Клик по изображению → `RotationAnimation`
   * Нажатие на прямоугольник → `ColorAnimation`
 * Все анимации выполняются с помощью стандартных QML-аниматоров (`RotationAnimation`, `ColorAnimation`), что демонстрирует базовые возможности создания интерактивных и плавных эффектов в мобильных приложениях на Qt/QML.
+
+
 
 
 
