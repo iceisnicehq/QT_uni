@@ -1,0 +1,159 @@
+Задание 1: Анализ примерного проекта
+1. Изучить структуру проекта [projects/animations_aurora · main · omprussia / Education / Разработка приложений на Qt · GitLab](https://gitlab.com/omprussia/edu/qt-app-development/-/tree/main/projects/animations_aurora?ref_type=heads)
+Ответ 1:
+Проект ru.auroraos.Animations — это мобильное QML-приложение под AuroraOS на базе Qt, структура которого включает:
+
+icons/
+Папка с иконками приложения для разных DPI (86×86, 108×108, 128×128, 172×172), требуемых системой AuroraOS для корректного отображения интерфейса.
+
+qml/
+Animations.qml — основной QML-файл, в котором описана вся анимация.
+images/ — подпапка с дополнительными графическими ресурсами для этой анимации.
+src/
+Содержит main.cpp — точку входа, где инициализируется Qt-приложение и запускается QML-интерфейс.
+rpm/
+Файл спецификации ru.auroraos.Animations.spec для сборки RPM-пакета и последующей установки через магазин AuroraOS.
+
+Файлы в корне проекта
+ru.auroraos.Animations.desktop — desktop-файл, описывающий ярлык приложения, параметры запуска и интеграцию в окружение.
+
+ru.auroraos.Animations.pro — Qt-проектный файл, в котором заданы пути к исходникам и ресурсам, а также параметры сборки.
+
+Такая структура типична для мобильных приложений на Qt/QML под AuroraOS: ресурсы и иконки вынесены в отдельные каталоги, интерфейс полностью описан в QML, а логика запуска и инициализации реализована в C++-файле.
+
+2. Проанализировать используемые ресурсы
+Ответ 2:
+1. Графические ресурсы для анимации (qml/images)
+aurora.svg
+SVG-файл, используемый в анимации. Находится по пути:
+qml/images/aurora.svg
+2. Иконки приложения (icons)
+Используются PNG-иконки одинакового имени ru.auroraos.Animations.png в разных разрешениях для поддержки различных экранов и DPI:
+
+86x86:
+icons/86x86/ru.auroraos.Animations.png
+108x108:
+icons/108x108/ru.auroraos.Animations.png
+128x128:
+icons/128x128/ru.auroraos.Animations.png
+172x172:
+icons/172x172/ru.auroraos.Animations.png
+Описание назначения ресурсов
+SVG-файл используется для отрисовки или анимации в QML-интерфейсе.
+PNG-иконки разных размеров используются для отображения приложения в системе AuroraOS в разных местах (рабочий стол, меню, список приложений).
+
+3. Разобрать реализованные анимации
+Ответ 3:
+Основные файлы
+main.cpp
+Запускает QML-приложение, подгружает файл qml/Animations.qml:
+view->setSource(Aurora::Application::pathTo(QStringLiteral("qml/Animations.qml")));
+
+qml/Animations.qml
+В этом файле реализована логика и визуализация анимаций.
+
+Структура QML и реализованные анимации
+Item {
+    objectName: "Animations"
+
+    Image {
+        id: image
+        source: Qt.resolvedUrl("images/aurora.svg")
+        fillMode: Image.PreserveAspectFit
+        anchors { fill: parent; bottomMargin: parent.height / 2 }
+
+        MouseArea {
+            onClicked: imageAnimation.running = true
+        }
+
+        RotationAnimation on rotation {
+            id: imageAnimation
+            to: image.rotation + 360
+            duration: 2000
+            running: false
+        }
+    }
+
+    Rectangle {
+        id: rectangle
+        color: "red"
+        anchors { fill: parent; topMargin: parent.height / 2 }
+        states: State {
+            name: "blue"
+            when: rectangleMouseArea.pressed
+
+            PropertyChanges  { target: rectangle; color: "blue" }
+        }
+        transitions: [
+            Transition {
+                to: "blue"
+                ColorAnimation { duration: 2000 }
+            },
+            Transition {
+                from: "blue"
+                ColorAnimation { duration: 500 }
+            }
+        ]
+
+        MouseArea {
+            id: rectangleMouseArea
+            anchors.fill: parent
+        }
+    }
+}
+
+1. Анимация вращения изображения (RotationAnimation)
+Что анимируется:
+SVG-изображение (aurora.svg), занимающее верхнюю часть экрана.
+Как работает:
+При клике по изображению (MouseArea.onClicked), запускается вращение изображения на 360°.
+Анимация (RotationAnimation) длится 2000 миллисекунд (2 секунды).
+Код:
+RotationAnimation on rotation {
+    to: image.rotation + 360
+    duration: 2000
+    running: false
+}
+
+Взаимодействие:
+Пользователь кликает по картинке — она плавно вращается по кругу.
+
+2. Анимация смены цвета прямоугольника (ColorAnimation, States, Transitions)
+Что анимируется:
+Прямоугольник (Rectangle), занимающий нижнюю половину экрана.
+Как работает:
+В обычном состоянии прямоугольник красный (color: "red").
+При нажатии (клик и удержание) мыши в области прямоугольника (rectangleMouseArea.pressed), состояние меняется на "blue", цвет — синий.
+При отпускании — возвращается к красному.
+Анимация переходов:
+При переходе в синее состояние — плавная смена цвета за 2 секунды.
+При возврате к красному — быстрая смена за 0.5 секунды.
+Код:
+states: State {
+    name: "blue"
+    when: rectangleMouseArea.pressed
+    PropertyChanges  { target: rectangle; color: "blue" }
+}
+transitions: [
+    Transition {
+        to: "blue"
+        ColorAnimation { duration: 2000 }
+    },
+    Transition {
+        from: "blue"
+        ColorAnimation { duration: 500 }
+    }
+]
+Взаимодействие:
+Пользователь зажимает прямоугольник — тот плавно становится синим; отпускает — быстро возвращается к красному.
+
+Используемые ресурсы
+SVG-изображение:
+qml/images/aurora.svg — основной визуальный элемент для анимации вращения.
+Иконки приложения:
+PNG-файлы разных размеров для интеграции с системой.
+
+Общая логика
+Все действия пользователя реализуются через MouseArea — клик по изображению запускает вращение, нажатие на прямоугольник меняет его цвет.
+Для каждой анимации используются стандартные QML-аниматоры: RotationAnimation для вращения, ColorAnimation для плавной смены цвета с разной скоростью.
+Приложение хорошо иллюстрирует базовые возможности QML-анимаций для мобильных платформ.
