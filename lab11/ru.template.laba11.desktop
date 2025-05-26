@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.template.laba11
+Exec=/usr/bin/ru.template.laba11
+Name=Template
+Name[ru]=Шаблон
+
+[X-Application]
+Permissions=RemovableMedia;UserDirs
+OrganizationName=ru.template
+ApplicationName=laba11
+ExecDBus=/usr/bin/ru.template.laba11

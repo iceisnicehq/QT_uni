@@ -6,16 +6,24 @@ import QtQuick 2.0
 Item {
     width: 400; height: 600
 
-    // Верхнее изображение с вращением
+    // Фон на весь экран
+    Rectangle {
+        anchors.fill: parent
+        color: starMouseArea.pressed ? "#c612ee" : "#ffe604"
+        z: -1
+        Behavior on color { ColorAnimation { duration: 700 } }
+    }
+
+    // Верхнее изображение (не перекрывает центр)
     Image {
         id: image
-        source: Qt.resolvedUrl("images/aurora.svg")
+        source: Qt.resolvedUrl("images/ya.svg")
         fillMode: Image.PreserveAspectFit
         anchors.top: parent.top
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.margins: 0
-        height: parent.height / 2
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.topMargin: 10
+        width: parent.width
+        height: parent.height / 3
         rotation: 0
         MouseArea {
             anchors.fill: parent
@@ -31,16 +39,58 @@ Item {
         }
     }
 
-    // Кнопка для вращения SVG (по центру)
+    // Звезда с кругом по центру
+    Item {
+        width: 120; height: 120
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        z: 1
+
+        // Круг появляется при нажатии
+        Rectangle {
+            width: 110; height: 110
+            anchors.centerIn: parent
+            color: "transparent"
+            border.color: "#f80000"
+            border.width: 6
+            radius: 55
+            opacity: starMouseArea.pressed ? 1 : 0
+            Behavior on opacity { NumberAnimation { duration: 300 } }
+        }
+
+        // звезда (по умолчанию)
+        Image {
+            source: Qt.resolvedUrl("images/star.svg")
+            anchors.centerIn: parent
+            width: 90; height: 90
+            fillMode: Image.PreserveAspectFit
+            visible: !starMouseArea.pressed
+        }
+        // звезда (при нажатии)
+        Image {
+            source: Qt.resolvedUrl("images/star2.svg")
+            anchors.centerIn: parent
+            width: 90; height: 90
+            fillMode: Image.PreserveAspectFit
+            visible: starMouseArea.pressed
+        }
+        MouseArea {
+            id: starMouseArea
+            anchors.fill: parent
+        }
+    }
+
+    // Кнопка для вращения SVG
     Rectangle {
         id: rotateBtn
         width: 80; height: 80
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.verticalCenter: parent.verticalCenter
+        anchors.top: parent.verticalCenter
+        anchors.topMargin: 150
         z: 2
-        color: btnPressed ? "#FF9900" : "#00BFFF"
+        color: btnPressed ? "#FF0900" : "#00ff15"
         radius: 40
-        border.color: "#0055AA"
+        border.color: "#00ffdd"
         border.width: 2
         property bool btnPressed: false
         property real btnRotation: 0
@@ -63,22 +113,6 @@ Item {
                 rotAnim.running = true;
                 rotateBtn.btnRotation += 360;
             }
-        }
-    }
-
-    // Прямоугольник с изменением формы и цвета (плавные анимации)
-    Rectangle {
-        id: rectangle
-        width: parent.width
-        height: parent.height / 2
-        y: parent.height / 2
-        color: rectMouseArea.pressed ? "blue" : "red"
-        radius: rectMouseArea.pressed ? Math.min(width, height) / 2 : 0
-        Behavior on color { ColorAnimation { duration: rectMouseArea.pressed ? 300 : 2000; easing.type: Easing.InOutQuad } }
-        Behavior on radius { NumberAnimation { duration: rectMouseArea.pressed ? 300 : 2000; easing.type: Easing.InOutQuad } }
-        MouseArea {
-            id: rectMouseArea
-            anchors.fill: parent
         }
     }
 }

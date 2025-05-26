@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.15.2, 2025-05-25T03:45:23. -->
+<!-- Written by QtCreator 4.15.2, 2025-05-25T21:37:14. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -104,8 +104,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -165,8 +165,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -227,8 +227,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_x86_64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -404,7 +404,7 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="bool" key="MerRunConfiguration.DebugBypassOpenSslArmCapEnabled">true</value>
     <value type="bool" key="MerRunConfiguration.KeepUserData">true</value>
-    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/animations_aurora</value>
+    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/lr12</value>
     <value type="bool" key="MerRunConfiguration.QmlLiveEnabled">false</value>
     <value type="int" key="MerRunConfiguration.QmlLiveIpcPort">-1</value>
     <value type="int" key="MerRunConfiguration.QmlLiveOptions">3</value>
@@ -412,9 +412,9 @@
     <value type="bool" key="MerRunConfiguration.SandboxEnabled">false</value>
     <value type="int" key="PE.EnvironmentAspect.Base">1</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ru.auroraos.Animations (on %{Device:Name})</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerRunConfiguration:C:/Aurora_pr/animations_aurora/ru.auroraos.Animations.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Aurora_pr/animations_aurora/ru.auroraos.Animations.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ru.template.lr12 (on %{Device:Name})</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerRunConfiguration:C:/Aurora_pr/lr12/ru.template.lr12.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Aurora_pr/lr12/ru.template.lr12.pro</value>
     <value type="int" key="RemoteLinux.EnvironmentAspect.Version">1</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -441,8 +441,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -502,8 +502,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -564,8 +564,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_aarch64_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -624,7 +624,7 @@
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.DeployConfiguration.0">
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
-      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">false</value>
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerPrepareTargetStep</value>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
@@ -741,7 +741,7 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="bool" key="MerRunConfiguration.DebugBypassOpenSslArmCapEnabled">true</value>
     <value type="bool" key="MerRunConfiguration.KeepUserData">true</value>
-    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/animations_aurora</value>
+    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/lr12</value>
     <value type="bool" key="MerRunConfiguration.QmlLiveEnabled">false</value>
     <value type="int" key="MerRunConfiguration.QmlLiveIpcPort">-1</value>
     <value type="int" key="MerRunConfiguration.QmlLiveOptions">3</value>
@@ -749,9 +749,9 @@
     <value type="bool" key="MerRunConfiguration.SandboxEnabled">false</value>
     <value type="int" key="PE.EnvironmentAspect.Base">1</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ru.auroraos.Animations</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerRunConfiguration:C:/Aurora_pr/animations_aurora/ru.auroraos.Animations.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Aurora_pr/animations_aurora/ru.auroraos.Animations.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ru.template.lr12</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerRunConfiguration:C:/Aurora_pr/lr12/ru.template.lr12.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Aurora_pr/lr12/ru.template.lr12.pro</value>
     <value type="int" key="RemoteLinux.EnvironmentAspect.Version">1</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -778,8 +778,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -839,8 +839,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -901,8 +901,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.auroraos.Animations-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Aurora_pr\build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">C:/Aurora_pr/build-ru.template.lr12-AuroraOS_5_1_3_85_MB2_armv7hl_in_Aurora_Build_Engine_5_1_3_85_mb2-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -1064,7 +1064,7 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="bool" key="MerRunConfiguration.DebugBypassOpenSslArmCapEnabled">true</value>
     <value type="bool" key="MerRunConfiguration.KeepUserData">true</value>
-    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/animations_aurora</value>
+    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/lr12</value>
     <value type="bool" key="MerRunConfiguration.QmlLiveEnabled">false</value>
     <value type="int" key="MerRunConfiguration.QmlLiveIpcPort">-1</value>
     <value type="int" key="MerRunConfiguration.QmlLiveOptions">3</value>
@@ -1143,7 +1143,7 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="bool" key="MerRunConfiguration.DebugBypassOpenSslArmCapEnabled">true</value>
     <value type="bool" key="MerRunConfiguration.KeepUserData">true</value>
-    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/animations_aurora</value>
+    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">C:/Aurora_pr/lr12</value>
     <value type="bool" key="MerRunConfiguration.QmlLiveEnabled">false</value>
     <value type="int" key="MerRunConfiguration.QmlLiveIpcPort">-1</value>
     <value type="int" key="MerRunConfiguration.QmlLiveOptions">3</value>

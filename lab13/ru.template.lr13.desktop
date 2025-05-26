@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.template.lr13
+Exec=/usr/bin/ru.template.lr13
+Name=Template
+Name[ru]=Шаблон
+
+[X-Application]
+Permissions=Audio;MediaIndexing;Music
+OrganizationName=ru.template
+ApplicationName=lr13
+ExecDBus=/usr/bin/ru.template.lr13
