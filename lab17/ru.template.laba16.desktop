@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.template.laba16
+Exec=/usr/bin/ru.template.laba16
+Name=Laba16
+Name[ru]=Погода
+
+[X-Application]
+Permissions=UserDirs;Location;Internet
+OrganizationName=ru.template
+ApplicationName=laba16
+ExecDBus=/usr/bin/ru.template.laba16
